@@ -11,7 +11,7 @@ import java.net.URL;
 public class RegisterDeviceServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // API URL for registering devices
-        String apiUrl = "https://<API_ID>.execute-api.<REGION>.amazonaws.com/<STAGE>/registerDevice";
+        String apiUrl = "https://ugx6cqwyai.execute-api.ap-south-1.amazonaws.com/st1";
         
         // Make HTTP POST request to API
         URL url = new URL(apiUrl);
