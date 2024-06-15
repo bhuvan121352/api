@@ -11,7 +11,7 @@ import java.net.URL;
 public class GetDevicesServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // API URL for fetching devices
-        String apiUrl = "https://<API_ID>.execute-api.<REGION>.amazonaws.com/<STAGE>/devices";
+        String apiUrl = "https://xfwq69xkgf.execute-api.ap-south-1.amazonaws.com/st1";
         
         // Make HTTP GET request to API
         URL url = new URL(apiUrl);
