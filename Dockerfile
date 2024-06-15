@@ -2,7 +2,7 @@
 FROM tomcat:9.0
 
 # Copy the WAR file to the webapps directory
-COPY target/your-app-name.war /usr/local/tomcat/webapps/
+COPY /var/jenkins_home/workspace/apis/target/iot-device-registration.war /usr/local/tomcat/webapps/
 
 # Expose the port that Tomcat runs on
 EXPOSE 8080
